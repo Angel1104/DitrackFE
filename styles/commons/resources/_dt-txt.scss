@@ -1,0 +1,81 @@
+$dt-txt-sizes: (
+        xs: 10px,
+        sm: 14px,
+        md: 18px,
+        lg: 24px,
+        xl: 32px
+);
+
+@mixin dt-txt-font-family($font-family: none) {
+  @if $font-family == none {
+    $font-family: "Montserrat", sans-serif;
+  }
+
+  font-family: $font-family;
+}
+
+@mixin dt-txt-font-size($line-height, $font-size) {
+  font-size: $font-size;
+  line-height: $line-height;
+}
+
+@mixin dt-txt-size($txt-size) {
+  @if $txt-size == xs {
+    @include dt-txt-font-size($line-height: 15px, $font-size: map-get($dt-txt-sizes, $txt-size))
+  } @else if $txt-size == sm {
+    @include dt-txt-font-size($line-height: 21px, $font-size: map-get($dt-txt-sizes, $txt-size))
+  } @else if $txt-size == md {
+    @include dt-txt-font-size($line-height: 27px, $font-size: map-get($dt-txt-sizes, $txt-size))
+  } @else if $txt-size == lg {
+    @include dt-txt-font-size($line-height: 36px, $font-size: map-get($dt-txt-sizes, $txt-size))
+  } @else if $txt-size == xl {
+    @include dt-txt-font-size($line-height: 48px, $font-size: map-get($dt-txt-sizes, $txt-size))
+  } @else {
+    @error "#{$txt-size} is not a valid size"
+  }
+}
+
+.dt-txt {
+  @include dt-txt-font-family();
+  @include dt-txt-font-size($line-height: 10px, $font-size: 15px);
+  font-weight: 400;
+  color: white;
+}
+
+.dt-txt-xs {
+  @include dt-txt-size("xs")
+}
+
+.dt-txt-sm {
+  @include dt-txt-size("sm")
+}
+
+.dt-txt-md {
+  @include dt-txt-size("md")
+}
+
+.dt-txt-lg {
+  @include dt-txt-size("lg")
+}
+
+.dt-txt-xl {
+  @include dt-txt-size("xl")
+}
+
+.dt-txt-bold {
+  font-weight: bold;
+}
+
+.dt-txt-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.dt-txt-two-line-ellipsis {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+

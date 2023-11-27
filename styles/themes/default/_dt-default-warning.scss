@@ -1,0 +1,15 @@
+.dt-default-theme {
+  --dt-warning-h : 45;
+  --dt-warning-s : 97%;
+  --dt-warning-l : 61%;
+
+  --dt-warning-00: hsl(var(--dt-warning-h), var(--dt-warning-s), calc(var(--dt-warning-l) - 30%));
+  --dt-warning-10: hsl(var(--dt-warning-h), var(--dt-warning-s), calc(var(--dt-warning-l) - 20%));
+  --dt-warning-20: hsl(var(--dt-warning-h), var(--dt-warning-s), calc(var(--dt-warning-l) - 10%));
+  --dt-warning-30: hsl(var(--dt-warning-h), var(--dt-warning-s), calc(var(--dt-warning-l) + 10%));
+  --dt-warning-40: hsl(var(--dt-warning-h), var(--dt-warning-s), calc(var(--dt-warning-l) + 20%));
+  --dt-warning-50: hsl(var(--dt-warning-h), var(--dt-warning-s), calc(var(--dt-warning-l) + 30%));
+  --dt-warning-60: hsl(var(--dt-warning-h), var(--dt-warning-s), calc(var(--dt-warning-l) + 40%));
+  --dt-warning-70: hsl(var(--dt-warning-h), var(--dt-warning-s), calc(var(--dt-warning-l) + 50%));
+  --dt-warning: hsl(var(--dt-warning-h), var(--dt-warning-s), var(--dt-warning-l));
+}

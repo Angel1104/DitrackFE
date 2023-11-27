@@ -1,0 +1,15 @@
+.dt-default-theme {
+  --dt-primary-h : 258;
+  --dt-primary-s : 100%;
+  --dt-primary-l : 96%;
+
+  --dt-primary-00: hsl(var(--dt-primary-h), var(--dt-primary-s), calc(var(--dt-primary-l) - 30%));
+  --dt-primary-10: hsl(var(--dt-primary-h), var(--dt-primary-s), calc(var(--dt-primary-l) - 20%));
+  --dt-primary-20: hsl(var(--dt-primary-h), var(--dt-primary-s), calc(var(--dt-primary-l) - 10%));
+  --dt-primary-30: hsl(var(--dt-primary-h), var(--dt-primary-s), calc(var(--dt-primary-l) + 10%));
+  --dt-primary-40: hsl(var(--dt-primary-h), var(--dt-primary-s), calc(var(--dt-primary-l) + 20%));
+  --dt-primary-50: hsl(var(--dt-primary-h), var(--dt-primary-s), calc(var(--dt-primary-l) + 30%));
+  --dt-primary-60: hsl(var(--dt-primary-h), var(--dt-primary-s), calc(var(--dt-primary-l) + 40%));
+  --dt-primary-70: hsl(var(--dt-primary-h), var(--dt-primary-s), calc(var(--dt-primary-l) + 50%));
+  --dt-primary: hsl(var(--dt-primary-h), var(--dt-primary-s), var(--dt-primary-l));
+}

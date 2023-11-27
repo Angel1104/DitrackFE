@@ -1,0 +1,15 @@
+.dt-default-theme {
+  --dt-info-h : 202;
+  --dt-info-s : 78%;
+  --dt-info-l : 48%;
+
+  --dt-info-00: hsl(var(--dt-info-h), var(--dt-info-s), calc(var(--dt-info-l) - 30%));
+  --dt-info-10: hsl(var(--dt-info-h), var(--dt-info-s), calc(var(--dt-info-l) - 20%));
+  --dt-info-20: hsl(var(--dt-info-h), var(--dt-info-s), calc(var(--dt-info-l) - 10%));
+  --dt-info-30: hsl(var(--dt-info-h), var(--dt-info-s), calc(var(--dt-info-l) + 10%));
+  --dt-info-40: hsl(var(--dt-info-h), var(--dt-info-s), calc(var(--dt-info-l) + 20%));
+  --dt-info-50: hsl(var(--dt-info-h), var(--dt-info-s), calc(var(--dt-info-l) + 30%));
+  --dt-info-60: hsl(var(--dt-info-h), var(--dt-info-s), calc(var(--dt-info-l) + 40%));
+  --dt-info-70: hsl(var(--dt-info-h), var(--dt-info-s), calc(var(--dt-info-l) + 50%));
+   --dt-info: hsl(var(--dt-info-h), var(--dt-info-s), var(--dt-info-l));
+}

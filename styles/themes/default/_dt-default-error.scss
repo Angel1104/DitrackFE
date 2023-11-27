@@ -1,0 +1,15 @@
+.dt-default-theme {
+  --dt-error-h : 0;
+  --dt-error-s : 97%;
+  --dt-error-l : 48%;
+
+  --dt-error-00: hsl(var(--dt-error-h), var(--dt-error-s), calc(var(--dt-error-l) - 30%));
+  --dt-error-10: hsl(var(--dt-error-h), var(--dt-error-s), calc(var(--dt-error-l) - 20%));
+  --dt-error-20: hsl(var(--dt-error-h), var(--dt-error-s), calc(var(--dt-error-l) - 10%));
+  --dt-error-30: hsl(var(--dt-error-h), var(--dt-error-s), calc(var(--dt-error-l) - 10%));
+  --dt-error-40: hsl(var(--dt-error-h), var(--dt-error-s), calc(var(--dt-error-l) - 20%));
+  --dt-error-50: hsl(var(--dt-error-h), var(--dt-error-s), calc(var(--dt-error-l) - 30%));
+  --dt-error-60: hsl(var(--dt-error-h), var(--dt-error-s), calc(var(--dt-error-l) - 40%));
+  --dt-error-70: hsl(var(--dt-error-h), var(--dt-error-s), calc(var(--dt-error-l) - 50%));
+  --dt-error: hsl(var(--dt-error-h), var(--dt-error-s), var(--dt-error-l));
+}

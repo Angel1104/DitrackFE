@@ -1,0 +1,15 @@
+.dt-default-theme {
+  --dt-success-h : 125;
+  --dt-success-s : 50%;
+  --dt-success-l : 83%;
+
+  --dt-success-00: hsl(var(--dt-success-h), var(--dt-success-s), calc(var(--dt-success-l) - 30%));
+  --dt-success-10: hsl(var(--dt-success-h), var(--dt-success-s), calc(var(--dt-success-l) - 20%));
+  --dt-success-20: hsl(var(--dt-success-h), var(--dt-success-s), calc(var(--dt-success-l) - 10%));
+  --dt-success-30: hsl(var(--dt-success-h), var(--dt-success-s), calc(var(--dt-success-l) + 10%));
+  --dt-success-40: hsl(var(--dt-success-h), var(--dt-success-s), calc(var(--dt-success-l) + 20%));
+  --dt-success-50: hsl(var(--dt-success-h), var(--dt-success-s), calc(var(--dt-success-l) + 30%));
+  --dt-success-60: hsl(var(--dt-success-h), var(--dt-success-s), calc(var(--dt-success-l) + 40%));
+  --dt-success-70: hsl(var(--dt-success-h), var(--dt-success-s), calc(var(--dt-success-l) + 50%));
+  --dt-success: hsl(var(--dt-success-h), var(--dt-success-s), var(--dt-success-l));
+}

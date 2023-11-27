@@ -1,0 +1,15 @@
+.dt-default-theme {
+  --dt-preset-h : 0;
+  --dt-preset-s : 0%;
+  --dt-preset-l : 100%;
+
+  --dt-preset-00: hsl(var(--dt-preset-h), var(--dt-preset-s), calc(var(--dt-preset-l) - 30%));
+  --dt-preset-10: hsl(var(--dt-preset-h), var(--dt-preset-s), calc(var(--dt-preset-l) - 20%));
+  --dt-preset-20: hsl(var(--dt-preset-h), var(--dt-preset-s), calc(var(--dt-preset-l) - 10%));
+  --dt-preset-30: hsl(var(--dt-preset-h), var(--dt-preset-s), calc(var(--dt-preset-l) + 10%));
+  --dt-preset-40: hsl(var(--dt-preset-h), var(--dt-preset-s), calc(var(--dt-preset-l) + 20%));
+  --dt-preset-50: hsl(var(--dt-preset-h), var(--dt-preset-s), calc(var(--dt-preset-l) + 30%));
+  --dt-preset-60: hsl(var(--dt-preset-h), var(--dt-preset-s), calc(var(--dt-preset-l) + 40%));
+  --dt-preset-70: hsl(var(--dt-preset-h), var(--dt-preset-s), calc(var(--dt-preset-l) + 50%));
+  --dt-preset: hsl(var(--dt-preset-h), var(--dt-preset-s), var(--dt-preset-l));
+}

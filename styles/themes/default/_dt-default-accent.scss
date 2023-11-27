@@ -1,0 +1,15 @@
+.dt-default-theme {
+  --dt-accent-h : 326;
+  --dt-accent-s : 87%;
+  --dt-accent-l : 35%;
+
+  --dt-accent-00: hsl(var(--dt-accent-h), var(--dt-accent-s), calc(var(--dt-accent-l) - 30%));
+  --dt-accent-10: hsl(var(--dt-accent-h), var(--dt-accent-s), calc(var(--dt-accent-l) - 20%));
+  --dt-accent-20: hsl(var(--dt-accent-h), var(--dt-accent-s), calc(var(--dt-accent-l) - 10%));
+  --dt-accent-30: hsl(var(--dt-accent-h), var(--dt-accent-s), calc(var(--dt-accent-l) + 10%));
+  --dt-accent-40: hsl(var(--dt-accent-h), var(--dt-accent-s), calc(var(--dt-accent-l) + 20%));
+  --dt-accent-50: hsl(var(--dt-accent-h), var(--dt-accent-s), calc(var(--dt-accent-l) + 30%));
+  --dt-accent-60: hsl(var(--dt-accent-h), var(--dt-accent-s), calc(var(--dt-accent-l) + 40%));
+  --dt-accent-70: hsl(var(--dt-accent-h), var(--dt-accent-s), calc(var(--dt-accent-l) + 50%));
+  --dt-accent: hsl(var(--dt-accent-h), var(--dt-accent-s), var(--dt-accent-l));
+}

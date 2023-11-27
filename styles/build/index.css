@@ -1,0 +1,326 @@
+.dt-btn {
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  text-align: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+}
+.dt-btn .dt-txt {
+  cursor: pointer;
+}
+
+.dt-txt {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  line-height: 10px;
+  font-weight: 400;
+  color: white;
+}
+
+.dt-txt-xs {
+  font-size: 10px;
+  line-height: 15px;
+}
+
+.dt-txt-sm {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.dt-txt-md {
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.dt-txt-lg {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.dt-txt-xl {
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.dt-txt-bold {
+  font-weight: bold;
+}
+
+.dt-txt-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.dt-txt-two-line-ellipsis {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.dt-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.public {
+  border: 1px solid red;
+}
+
+.dt-menu-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  gap: 20px;
+  border-right: 1px solid;
+  align-items: center;
+  background-image: url("../images/test1.png");
+}
+
+.dt-menu-title {
+  color: var(--dt-preset);
+}
+
+.dt-menu-buttons {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}
+
+.dt-menu-button {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  align-items: center;
+  gap: 10px;
+  padding: 0 10px;
+  box-shadow: var(--dt-major) 0 13px 27px -5px, var(--dt-major) 0 8px 16px -8px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: var(--dt-major);
+}
+.dt-menu-button:hover {
+  background-color: var(--dt-major-60);
+  color: var(--dt-preset);
+}
+
+.dt-secure-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.dt-secure-left-panel {
+  display: flex;
+  width: 200px;
+  height: 100%;
+}
+
+.dt-secure-right-panel {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: var(--dt-primary-10);
+}
+
+.dt-secure-right-panel-top:hover {
+  background-color: yellow;
+}
+
+.dt-default-theme {
+  --dt-preset-h: 0;
+  --dt-preset-s: 0%;
+  --dt-preset-l: 100%;
+  --dt-preset-00: hsl(var(--dt-preset-h), var(--dt-preset-s), calc(var(--dt-preset-l) - 30%));
+  --dt-preset-10: hsl(var(--dt-preset-h), var(--dt-preset-s), calc(var(--dt-preset-l) - 20%));
+  --dt-preset-20: hsl(var(--dt-preset-h), var(--dt-preset-s), calc(var(--dt-preset-l) - 10%));
+  --dt-preset-30: hsl(var(--dt-preset-h), var(--dt-preset-s), calc(var(--dt-preset-l) + 10%));
+  --dt-preset-40: hsl(var(--dt-preset-h), var(--dt-preset-s), calc(var(--dt-preset-l) + 20%));
+  --dt-preset-50: hsl(var(--dt-preset-h), var(--dt-preset-s), calc(var(--dt-preset-l) + 30%));
+  --dt-preset-60: hsl(var(--dt-preset-h), var(--dt-preset-s), calc(var(--dt-preset-l) + 40%));
+  --dt-preset-70: hsl(var(--dt-preset-h), var(--dt-preset-s), calc(var(--dt-preset-l) + 50%));
+  --dt-preset: hsl(var(--dt-preset-h), var(--dt-preset-s), var(--dt-preset-l));
+}
+
+.dt-default-theme {
+  --dt-warning-h: 45;
+  --dt-warning-s: 97%;
+  --dt-warning-l: 61%;
+  --dt-warning-00: hsl(var(--dt-warning-h), var(--dt-warning-s), calc(var(--dt-warning-l) - 30%));
+  --dt-warning-10: hsl(var(--dt-warning-h), var(--dt-warning-s), calc(var(--dt-warning-l) - 20%));
+  --dt-warning-20: hsl(var(--dt-warning-h), var(--dt-warning-s), calc(var(--dt-warning-l) - 10%));
+  --dt-warning-30: hsl(var(--dt-warning-h), var(--dt-warning-s), calc(var(--dt-warning-l) + 10%));
+  --dt-warning-40: hsl(var(--dt-warning-h), var(--dt-warning-s), calc(var(--dt-warning-l) + 20%));
+  --dt-warning-50: hsl(var(--dt-warning-h), var(--dt-warning-s), calc(var(--dt-warning-l) + 30%));
+  --dt-warning-60: hsl(var(--dt-warning-h), var(--dt-warning-s), calc(var(--dt-warning-l) + 40%));
+  --dt-warning-70: hsl(var(--dt-warning-h), var(--dt-warning-s), calc(var(--dt-warning-l) + 50%));
+  --dt-warning: hsl(var(--dt-warning-h), var(--dt-warning-s), var(--dt-warning-l));
+}
+
+.dt-default-theme {
+  --dt-terciary-h: 228;
+  --dt-terciary-s: 65%;
+  --dt-terciary-l: 20%;
+  --dt-terciary-00: hsl(var(--dt-terciary-h), var(--dt-terciary-s), calc(var(--dt-terciary-l) - 30%));
+  --dt-terciary-10: hsl(var(--dt-terciary-h), var(--dt-terciary-s), calc(var(--dt-terciary-l) - 20%));
+  --dt-terciary-20: hsl(var(--dt-terciary-h), var(--dt-terciary-s), calc(var(--dt-terciary-l) - 10%));
+  --dt-terciary-30: hsl(var(--dt-terciary-h), var(--dt-terciary-s), calc(var(--dt-terciary-l) + 10%));
+  --dt-terciary-40: hsl(var(--dt-terciary-h), var(--dt-terciary-s), calc(var(--dt-terciary-l) + 20%));
+  --dt-terciary-50: hsl(var(--dt-terciary-h), var(--dt-terciary-s), calc(var(--dt-terciary-l) + 30%));
+  --dt-terciary-60: hsl(var(--dt-terciary-h), var(--dt-terciary-s), calc(var(--dt-terciary-l) + 40%));
+  --dt-terciary-70: hsl(var(--dt-terciary-h), var(--dt-terciary-s), calc(var(--dt-terciary-l) + 50%));
+  --dt-terciary: hsl(var(--dt-terciary-h), var(--dt-terciary-s), var(--dt-terciary-l));
+}
+
+.dt-default-theme {
+  --dt-secondary-h: 244;
+  --dt-secondary-s: 82%;
+  --dt-secondary-l: 70%;
+  --dt-secondary-00: hsl(var(--dt-secondary-h), var(--dt-secondary-s), calc(var(--dt-secondary-l) - 30%));
+  --dt-secondary-10: hsl(var(--dt-secondary-h), var(--dt-secondary-s), calc(var(--dt-secondary-l) - 20%));
+  --dt-secondary-20: hsl(var(--dt-secondary-h), var(--dt-secondary-s), calc(var(--dt-secondary-l) - 10%));
+  --dt-secondary-30: hsl(var(--dt-secondary-h), var(--dt-secondary-s), calc(var(--dt-secondary-l) + 10%));
+  --dt-secondary-40: hsl(var(--dt-secondary-h), var(--dt-secondary-s), calc(var(--dt-secondary-l) + 20%));
+  --dt-secondary-50: hsl(var(--dt-secondary-h), var(--dt-secondary-s), calc(var(--dt-secondary-l) + 30%));
+  --dt-secondary-60: hsl(var(--dt-secondary-h), var(--dt-secondary-s), calc(var(--dt-secondary-l) + 40%));
+  --dt-secondary-70: hsl(var(--dt-secondary-h), var(--dt-secondary-s), calc(var(--dt-secondary-l) + 50%));
+  --dt-secondary: hsl(var(--dt-secondary-h), var(--dt-secondary-s), var(--dt-secondary-l));
+}
+
+.dt-default-theme {
+  --dt-success-h: 125;
+  --dt-success-s: 50%;
+  --dt-success-l: 83%;
+  --dt-success-00: hsl(var(--dt-success-h), var(--dt-success-s), calc(var(--dt-success-l) - 30%));
+  --dt-success-10: hsl(var(--dt-success-h), var(--dt-success-s), calc(var(--dt-success-l) - 20%));
+  --dt-success-20: hsl(var(--dt-success-h), var(--dt-success-s), calc(var(--dt-success-l) - 10%));
+  --dt-success-30: hsl(var(--dt-success-h), var(--dt-success-s), calc(var(--dt-success-l) + 10%));
+  --dt-success-40: hsl(var(--dt-success-h), var(--dt-success-s), calc(var(--dt-success-l) + 20%));
+  --dt-success-50: hsl(var(--dt-success-h), var(--dt-success-s), calc(var(--dt-success-l) + 30%));
+  --dt-success-60: hsl(var(--dt-success-h), var(--dt-success-s), calc(var(--dt-success-l) + 40%));
+  --dt-success-70: hsl(var(--dt-success-h), var(--dt-success-s), calc(var(--dt-success-l) + 50%));
+  --dt-success: hsl(var(--dt-success-h), var(--dt-success-s), var(--dt-success-l));
+}
+
+.dt-default-theme {
+  --dt-primary-h: 258;
+  --dt-primary-s: 100%;
+  --dt-primary-l: 96%;
+  --dt-primary-00: hsl(var(--dt-primary-h), var(--dt-primary-s), calc(var(--dt-primary-l) - 30%));
+  --dt-primary-10: hsl(var(--dt-primary-h), var(--dt-primary-s), calc(var(--dt-primary-l) - 20%));
+  --dt-primary-20: hsl(var(--dt-primary-h), var(--dt-primary-s), calc(var(--dt-primary-l) - 10%));
+  --dt-primary-30: hsl(var(--dt-primary-h), var(--dt-primary-s), calc(var(--dt-primary-l) + 10%));
+  --dt-primary-40: hsl(var(--dt-primary-h), var(--dt-primary-s), calc(var(--dt-primary-l) + 20%));
+  --dt-primary-50: hsl(var(--dt-primary-h), var(--dt-primary-s), calc(var(--dt-primary-l) + 30%));
+  --dt-primary-60: hsl(var(--dt-primary-h), var(--dt-primary-s), calc(var(--dt-primary-l) + 40%));
+  --dt-primary-70: hsl(var(--dt-primary-h), var(--dt-primary-s), calc(var(--dt-primary-l) + 50%));
+  --dt-primary: hsl(var(--dt-primary-h), var(--dt-primary-s), var(--dt-primary-l));
+}
+
+.dt-default-theme {
+  --dt-info-h: 202;
+  --dt-info-s: 78%;
+  --dt-info-l: 48%;
+  --dt-info-00: hsl(var(--dt-info-h), var(--dt-info-s), calc(var(--dt-info-l) - 30%));
+  --dt-info-10: hsl(var(--dt-info-h), var(--dt-info-s), calc(var(--dt-info-l) - 20%));
+  --dt-info-20: hsl(var(--dt-info-h), var(--dt-info-s), calc(var(--dt-info-l) - 10%));
+  --dt-info-30: hsl(var(--dt-info-h), var(--dt-info-s), calc(var(--dt-info-l) + 10%));
+  --dt-info-40: hsl(var(--dt-info-h), var(--dt-info-s), calc(var(--dt-info-l) + 20%));
+  --dt-info-50: hsl(var(--dt-info-h), var(--dt-info-s), calc(var(--dt-info-l) + 30%));
+  --dt-info-60: hsl(var(--dt-info-h), var(--dt-info-s), calc(var(--dt-info-l) + 40%));
+  --dt-info-70: hsl(var(--dt-info-h), var(--dt-info-s), calc(var(--dt-info-l) + 50%));
+  --dt-info: hsl(var(--dt-info-h), var(--dt-info-s), var(--dt-info-l));
+}
+
+.dt-default-theme {
+  --dt-gray-h: 0;
+  --dt-gray-s: 0%;
+  --dt-gray-l: 0%;
+  --dt-gray-00: hsl(var(--dt-gray-h), var(--dt-gray-s), calc(var(--dt-gray-l) - 30%));
+  --dt-gray-10: hsl(var(--dt-gray-h), var(--dt-gray-s), calc(var(--dt-gray-l) - 20%));
+  --dt-gray-20: hsl(var(--dt-gray-h), var(--dt-gray-s), calc(var(--dt-gray-l) - 10%));
+  --dt-gray-30: hsl(var(--dt-gray-h), var(--dt-gray-s), calc(var(--dt-gray-l) + 10%));
+  --dt-gray-40: hsl(var(--dt-gray-h), var(--dt-gray-s), calc(var(--dt-gray-l) + 20%));
+  --dt-gray-50: hsl(var(--dt-gray-h), var(--dt-gray-s), calc(var(--dt-gray-l) + 30%));
+  --dt-gray-60: hsl(var(--dt-gray-h), var(--dt-gray-s), calc(var(--dt-gray-l) + 40%));
+  --dt-gray-70: hsl(var(--dt-gray-h), var(--dt-gray-s), calc(var(--dt-gray-l) + 50%));
+  --dt-gray: hsl(var(--dt-gray-h), var(--dt-gray-s), var(--dt-gray-l));
+}
+
+.dt-default-theme {
+  --dt-error-h: 0;
+  --dt-error-s: 97%;
+  --dt-error-l: 48%;
+  --dt-error-00: hsl(var(--dt-error-h), var(--dt-error-s), calc(var(--dt-error-l) - 30%));
+  --dt-error-10: hsl(var(--dt-error-h), var(--dt-error-s), calc(var(--dt-error-l) - 20%));
+  --dt-error-20: hsl(var(--dt-error-h), var(--dt-error-s), calc(var(--dt-error-l) - 10%));
+  --dt-error-30: hsl(var(--dt-error-h), var(--dt-error-s), calc(var(--dt-error-l) - 10%));
+  --dt-error-40: hsl(var(--dt-error-h), var(--dt-error-s), calc(var(--dt-error-l) - 20%));
+  --dt-error-50: hsl(var(--dt-error-h), var(--dt-error-s), calc(var(--dt-error-l) - 30%));
+  --dt-error-60: hsl(var(--dt-error-h), var(--dt-error-s), calc(var(--dt-error-l) - 40%));
+  --dt-error-70: hsl(var(--dt-error-h), var(--dt-error-s), calc(var(--dt-error-l) - 50%));
+  --dt-error: hsl(var(--dt-error-h), var(--dt-error-s), var(--dt-error-l));
+}
+
+.dt-default-theme {
+  --dt-accent-h: 326;
+  --dt-accent-s: 87%;
+  --dt-accent-l: 35%;
+  --dt-accent-00: hsl(var(--dt-accent-h), var(--dt-accent-s), calc(var(--dt-accent-l) - 30%));
+  --dt-accent-10: hsl(var(--dt-accent-h), var(--dt-accent-s), calc(var(--dt-accent-l) - 20%));
+  --dt-accent-20: hsl(var(--dt-accent-h), var(--dt-accent-s), calc(var(--dt-accent-l) - 10%));
+  --dt-accent-30: hsl(var(--dt-accent-h), var(--dt-accent-s), calc(var(--dt-accent-l) + 10%));
+  --dt-accent-40: hsl(var(--dt-accent-h), var(--dt-accent-s), calc(var(--dt-accent-l) + 20%));
+  --dt-accent-50: hsl(var(--dt-accent-h), var(--dt-accent-s), calc(var(--dt-accent-l) + 30%));
+  --dt-accent-60: hsl(var(--dt-accent-h), var(--dt-accent-s), calc(var(--dt-accent-l) + 40%));
+  --dt-accent-70: hsl(var(--dt-accent-h), var(--dt-accent-s), calc(var(--dt-accent-l) + 50%));
+  --dt-accent: hsl(var(--dt-accent-h), var(--dt-accent-s), var(--dt-accent-l));
+}
+
+.dt-default-theme {
+  --dt-major-h: 252;
+  --dt-major-s: 35%;
+  --dt-major-l: 33%;
+  --dt-major-10: hsl(var(--dt-major-h), var(--dt-major-s), calc(var(--dt-major-l) - 30%));
+  --dt-major-20: hsl(var(--dt-major-h), var(--dt-major-s), calc(var(--dt-major-l) - 20%));
+  --dt-major-30: hsl(var(--dt-major-h), var(--dt-major-s), calc(var(--dt-major-l) - 10%));
+  --dt-major: hsl(var(--dt-major-h), var(--dt-major-s), var(--dt-major-l));
+  --dt-major-50: hsl(var(--dt-major-h), var(--dt-major-s), calc(var(--dt-major-l) + 10%));
+  --dt-major-60: hsl(var(--dt-major-h), var(--dt-major-s), calc(var(--dt-major-l) + 20%));
+  --dt-major-70: hsl(var(--dt-major-h), var(--dt-major-s), calc(var(--dt-major-l) + 30%));
+  --dt-major-80: hsl(var(--dt-major-h), var(--dt-major-s), calc(var(--dt-major-l) + 40%));
+  --dt-major-90: hsl(var(--dt-major-h), var(--dt-major-s), calc(var(--dt-major-l) + 50%));
+}
+
+@font-face {
+  font-family: "sansationregular";
+  src: url("Sansation-Regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  overflow-y: hidden;
+}
+
+body {
+  display: flex;
+  width: 100%;
+  margin: 0;
+}
+
+/*# sourceMappingURL=index.css.map */

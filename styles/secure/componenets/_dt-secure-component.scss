@@ -1,0 +1,27 @@
+.dt-secure-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.dt-secure-left-panel {
+  display: flex;
+  width: 200px;
+  height: 100%;
+}
+
+.dt-secure-right-panel {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: var(--dt-primary-10);
+}
+
+.dt-secure-right-panel-top {
+  &:hover {
+    background-color: yellow;
+  }
+}
+
+.dt-secure-right-panel-bottom {
+}

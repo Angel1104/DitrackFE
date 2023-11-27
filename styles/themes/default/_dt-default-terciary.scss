@@ -1,0 +1,15 @@
+.dt-default-theme {
+  --dt-terciary-h : 228;
+  --dt-terciary-s : 65%;
+  --dt-terciary-l : 20%;
+
+  --dt-terciary-00: hsl(var(--dt-terciary-h), var(--dt-terciary-s), calc(var(--dt-terciary-l) - 30%));
+  --dt-terciary-10: hsl(var(--dt-terciary-h), var(--dt-terciary-s), calc(var(--dt-terciary-l) - 20%));
+  --dt-terciary-20: hsl(var(--dt-terciary-h), var(--dt-terciary-s), calc(var(--dt-terciary-l) - 10%));
+  --dt-terciary-30: hsl(var(--dt-terciary-h), var(--dt-terciary-s), calc(var(--dt-terciary-l) + 10%));
+  --dt-terciary-40: hsl(var(--dt-terciary-h), var(--dt-terciary-s), calc(var(--dt-terciary-l) + 20%));
+  --dt-terciary-50: hsl(var(--dt-terciary-h), var(--dt-terciary-s), calc(var(--dt-terciary-l) + 30%));
+  --dt-terciary-60: hsl(var(--dt-terciary-h), var(--dt-terciary-s), calc(var(--dt-terciary-l) + 40%));
+  --dt-terciary-70: hsl(var(--dt-terciary-h), var(--dt-terciary-s), calc(var(--dt-terciary-l) + 50%));
+  --dt-terciary: hsl(var(--dt-terciary-h), var(--dt-terciary-s), var(--dt-terciary-l));
+}
